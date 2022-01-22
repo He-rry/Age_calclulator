@@ -1,20 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-section{
+section {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(to left, #4431e0, #4050e6, #4668e9, #577ee8, #6d92e5, #739ae5, #7aa1e5, #82a8e4, #76a6e9, #67a5ee, #55a3f3, #3ba2f8);
+    background-image: linear-gradient(to left,
+            #4431e0,
+            #4050e6,
+            #4668e9,
+            #577ee8,
+            #6d92e5,
+            #739ae5,
+            #7aa1e5,
+            #82a8e4,
+            #76a6e9,
+            #67a5ee,
+            #55a3f3,
+            #3ba2f8);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container{
+.container {
     width: 70%;
     min-height: 50vh;
     border-radius: 40px;
@@ -24,22 +36,21 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
-.container h1{
+.container h1 {
     font-size: 40px;
     text-transform: uppercase;
-    text-shadow: 0px .5px 3px #444;
+    text-shadow: 0px 0.5px 3px #444;
 }
 
-.container #display{
+.container #display {
     padding: 20px;
     font-size: 25px;
     color: #222;
 }
 
-.input-box input{
+.input-box input {
     width: 100px;
     height: 40px;
     text-align: center;
@@ -47,19 +58,30 @@ section{
     border-radius: 5px;
     background-color: #f4f4f4;
     border: 1px solid #333;
-    
 }
 
-.input-box input:focus{
+.input-box input:focus {
     outline: none;
 }
 
-.container button{
+.container button {
     width: 35%;
     height: 45px;
     border: none;
     outline: none;
-    background-image: linear-gradient(to left, #4431e0, #4050e6, #4668e9, #577ee8, #6d92e5, #739ae5, #7aa1e5, #82a8e4, #76a6e9, #67a5ee, #55a3f3, #3ba2f8);
+    background-image: linear-gradient(to left,
+            #4431e0,
+            #4050e6,
+            #4668e9,
+            #577ee8,
+            #6d92e5,
+            #739ae5,
+            #7aa1e5,
+            #82a8e4,
+            #76a6e9,
+            #67a5ee,
+            #55a3f3,
+            #3ba2f8);
     font-size: 23px;
     color: rgb(0, 0, 0);
     border-radius: 10px;
